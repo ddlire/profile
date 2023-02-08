@@ -80,7 +80,15 @@ li {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .card {
-    width: 400px;
+    width: 380px;
+    transition: all 0.4s ease-in-out;
+  }
+}
+
+@media (max-width: 400px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
     transition: all 0.4s ease-in-out;
   }
 }
